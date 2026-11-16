@@ -1,0 +1,8 @@
+# Optional Render Blueprint for the frontend as a separate static site.
+# If you use the Render dashboard manually, create a Static Site and publish ".".
+services:
+  - type: web
+    name: startxai-frontend
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
